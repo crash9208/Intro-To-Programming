@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>P1: Build a Portfolio Site</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body>
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-md-2">
+            <img class="title-logo" src="images/logo_converted.jpg" width="101" height="100" alt="A logo of the old Gods in the North" data-toogle="modal" data-target="#aboutMe">
+        </div>
+        <div class="col-md-10 text-right text-uppercase">
+          <h1 class="title-super">Sebastian Henn</h1>
+          <h4>Front-end Beginner</h4>
+        </div>
+     </div>
+    </header>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive center-block" src="images/Nature_Desert_Road_in_the_desert_030012_converted.jpg" width="1300" height="310" alt="A road through the dessert">
+        </div>
+      </div>
+
+      <h2>Featured Work</h2>
+
+      <div class="row text-center">
+       <article>
+        <div class="col-md-6">
+          <img class="img-responsive center-block" src="images/Quality2.jpg" alt="Picture Quality" width="570" height="310" data-toogle="modal" data-target="#quality">
+          <h3>Fill the Blanks</h3>
+          <p><a href="https://github.com/crash9208/Intro-To-Programming/blob/master/Stage_2_Project/Final_drawft.py">Link to project</a></p>
+        </div>
+        <div class="col-md-6">
+          <img class="img-responsive center-block" src="images/Effort.jpg" alt="Picture Effort" width="570" height="310" data-toogle="modal" data-target="#effort">
+          <h3>Movie Website</h3>
+          <p><a href="https://github.com/crash9208/Intro-To-Programming/tree/master/Stage_3_Project">Link to project</a></p>
+        </div>
+       </article>
+      </div>
+
+      <div class="row text-center">
+       <article>
+        <div class="col-md-6">
+          <img class="img-responsive center-block" src="images/Trust.jpg" alt="Picture Trust" width="570" height="310" data-toogle="modal" data-target="#trust">
+          <h3>Tournament Project</h3>
+          <p><a href="https://github.com/crash9208/Intro-To-Programming/tree/master/tournament">Link to project</a></p>
+        </div>
+        <div class="col-md-6">
+          <img class="img-responsive center-block" src="images/Duty.jpg" alt="Picture Duty" width="570" height="310" data-toogle="modal" data-target="#duty">
+          <h3>My first Website</h3>
+          <p><a href="https://github.com/crash9208/Intro-To-Programming/tree/master/Stage_1_Project">Link to project</a></p>
+        </div>
+       </article>
+      </div>
+    </div>
+
+    <footer class="text-center">
+      <a href="https://www.linkedin.com" target="_blank">
+        <img src="images/linkedin.png" width="24" height="24" alt="linkedIn">
+      </a>
+
+      <p>
+        Icons made by Elegant Themes, SimpleIcon from
+        <a href="http://www.flaticon.com" title="Flaticon" target="_blank">
+          www.flaticon.com
+        </a>
+        is licensed by
+        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">
+          CC BY 3.0
+        </a>
+      </p>
+    </footer>
+
+
+
+    <!-- Modals -->
+    <div class="modal fade" id="effort" tabindex="-1" role="dialog" aria-labelledby="effortModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="effortModalLabel">Effort</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-image" src="images/Effort.jpg" width="570" height="310" alt="Picture Effort">
+            <p>I don´t like to quit or give up on something when it gets hard. To go forward even one step a day that is the way how you reach your goals.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="quality" tabindex="-1" role="dialog" aria-labelledby="qualityModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="qualityModalLabel">Quality</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-image" src="images/Quality2.jpg" width="570" height="310" alt="Picture Quality">
+            <p>I love to learn! Through every project or tutorial I can take something new with me and increase my knowledge! There are so many ways to code and programming languages to learn...There is no perfect way, but to get close...is something worth to achieve.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="trust" tabindex="-1" role="dialog" aria-labelledby="trustModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="trustModalLabel">Trust</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-image" src="images/Trust.jpg" alt="Picture Trust" width="570" height="310">
+            <p>Trust yourself and stay dedicated, everything else will come along.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="duty" tabindex="-1" role="dialog" aria-labelledby="dutyModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="dutyModalLabel">Duty</h4>
+          </div>
+          <div class="modal-body">
+              <img class="img-responsive modal-image" src="images/Duty.jpg" width="570" height="310" alt="Picture Duty">
+              <p>If i start something, I want to finish it.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="aboutMe" tabindex="-1" role="dialog" aria-labelledby="aboutMeModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="aboutMeModalLabel">About Me</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-image" src="images/headshot1.jpg" width="568" height="379" alt="A small headshot of Cheryl Court">
+            <p>
+              I've always had a passion for solving problems and creating things for as long as I can remember.  Software development was a natural fit for me.
+            <p>
+              When I'm not busy developing software you might find me in the office learning controlling and accounting.
+            </p>
+            <p>
+              Thanks for stopping by and looking at some of my work.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
